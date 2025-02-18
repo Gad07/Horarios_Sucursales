@@ -1,4 +1,3 @@
-Descripción (Breve)
 Aplicación en Flask para generar, organizar y visualizar horarios de colaboradores, con exportación a Excel y PDF. Incluye una vista de consultor para acceder a los archivos organizados por zona.
 
 # Generador de Horarios en Flask
