@@ -34,8 +34,7 @@ Crear entorno virtual (opcional pero recomendado):
 bash
 Copiar código
 python -m venv venv
-source venv/bin/activate     # En Linux / Mac
-# o 
+source venv/bin/activate     # En Linux / Mac 
 venv\Scripts\activate        # En Windows
 Instalar dependencias:
 
