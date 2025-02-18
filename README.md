@@ -65,19 +65,6 @@ Interfaz Consultor:
 Ingresa a http://127.0.0.1:5000/consultor.
 Allí verás las zonas y los archivos generados (tanto PDF como Excel).
 Puedes previsualizarlos en el navegador y/o descargarlos.
-Estructura de Archivos
-php
-Copiar código
-tu-repositorio/
-├── horarios/                       # Carpeta donde se almacenan los archivos generados (por zona)
-├── templates/
-│   ├── index.html                 # Formulario para generar horarios
-│   └── consultor.html             # Vista del consultor
-├── static/                        # Archivos estáticos (CSS, JS, imágenes si aplica)
-├── Horarios_Plantilla.xlsx        # Plantilla de Excel para los horarios
-├── app.py                         # Archivo principal Flask
-├── requirements.txt               # Dependencias
-└── README.md
 
 Personalización
 Zonas y Sucursales: Si quieres modificar la clasificación de las sucursales, ajusta la función obtener_zona_por_sucursal(sucursal) en app.py.
